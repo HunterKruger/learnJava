@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function person(name,age){  //构造
+        this.name=name;
+        this.age=age;
+
+        function speak(sth){
+            alert(sth);
+        }
+
+        this.func=speak;
+    }
+
+    var s=new person("Tom",12);  //实例化
+    alert(s.name);
+    alert(s.age);
+    s.func("Bonjour!")
+
+</script>
+</body>
+</html>

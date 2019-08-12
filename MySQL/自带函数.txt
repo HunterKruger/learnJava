@@ -1,0 +1,8 @@
+SELECT curdate(),current_time(),month(birthday) from ` t_t`;
+SELECT userName,CHAR_LENGTH(userName),upper(userName),lower(userName) FROM ` t_t`;
+SELECT number,abs(number) FROM ` t_t`;
+SELECT sqrt(25),MOD(8,3) FROM ` t_t`;
+INSERT INTO ` t_t` VALUES (NULL,'2012-10-21','fjy','4',password('1234'));
+INSERT INTO ` t_t` VALUES (NULL,'2012-10-21','fjy','4',md5('1234'));
+INSERT INTO ` t_t` VALUES (NULL,'2012-10-21','fjy','4',md5('1234'),encode('abcd','aa'));
+SELECT decode(password2,'aa ') FROM ` t_t` WHERE id=5

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS层叠特性</title>  /*优先级*/
+    <style type="text/css">
+        p{
+            color: aqua;
+        }
+        .r{
+            color: red;
+        }
+        #s{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>line 1</p>
+    <p class="r">line 2</p>
+    <p class="r" id="s">line 3</p>
+    <p style="color: orange" class="r" id="s">line 4</p>
+</body>
+</html>

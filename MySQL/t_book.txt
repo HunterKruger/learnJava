@@ -1,0 +1,15 @@
+DESCRIBE t_book;
+DESCRIBE t_booktype;
+alter TABLE t_book RENAME t_book2;
+alter TABLE t_book2 RENAME t_book;
+ALTER TABLE t_book CHANGE bookName bookName2 VARCHAR(20);
+ALTER TABLE t_book CHANGE bookName2 bookName VARCHAR(20);
+ALTER TABLE t_book add testField int FIRST ;
+ALTER TABLE t_book DROP testField;
+
+INSERT into db_book.t_book VALUES ('6','Three represents','The elder','55','6');
+INSERT into db_book.t_book(`id`,`bookName`,`author`,`price`,`bookTypeId`) VALUES ('7','Francais','Guy','77','7');
+INSERT into db_book.t_book(`id`,`bookName`,`author`,`price`,`bookTypeId`) VALUES ('8','Japanese','Oki','92','8'),('9','Russie','Makarov','14','9');
+UPDATE t_book SET author='Otoki',price='92' where id=8;
+UPDATE t_book SET author='Miss' where bookName LIKE 'Francai%';
+DELETE FROM t_book WHERE  id='8';

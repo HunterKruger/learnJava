@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window常用对象方法及事件</title>
+    <script type="text/javascript">
+        function init(){
+            alert("文档加载完毕!");
+        }
+    </script>
+</head>
+<body onload="init()">
+<script type="text/javascript">
+    window.alert("window对象的alert方法");
+    function wait5Sec(){
+        alert("5秒,吃屎!")
+    }
+    window.setTimeout("wait5Sec()",5000);
+    window.open("http://www.bilibili.com");
+</script>
+</body>
+</html>

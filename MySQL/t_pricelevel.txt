@@ -1,0 +1,14 @@
+INSERT INTO t_pricelevel (`id`,`pricelevel`,`price`,`description`) VALUES ('1','1','80','cheap');
+INSERT INTO t_pricelevel (`id`,`pricelevel`,`price`,`description`) VALUES ('2','2','160','medium');
+INSERT INTO t_pricelevel (`id`,`pricelevel`,`price`,`description`) VALUES ('3','3','200','expensive');
+UPDATE t_pricelevel SET price=120 WHERE id=1;
+
+SELECT * FROM t_book WHERE bookTypeId in (SELECT id FROM t_booktype);
+SELECT * FROM t_book WHERE bookTypeId not in (SELECT id FROM t_booktype);
+SELECT * FROM t_book WHERE price > (SELECT price FROM t_pricelevel WHERE pricelevel=2);
+
+SELECT * FROM t_book WHERE EXISTS(SELECT *FROM t_booktype);
+SELECT * FROM t_book WHERE NOT EXISTS(SELECT *FROM t_booktype);
+
+SELECT * FROM t_book WHERE price>=ANY (SELECT price FROM t_pricelevel);
+SELECT * FROM t_book WHERE price>=ALL (SELECT price FROM t_pricelevel);

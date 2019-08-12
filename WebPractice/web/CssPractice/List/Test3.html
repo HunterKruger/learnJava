@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建简单导航菜单</title>
+    <style type="text/css">
+        #navigation{
+            width:120px;
+            font-family: Arial;
+            font-size: 14px;
+            text-align: right;
+        }
+        #navigation ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        #navigation li{
+            border-bottom: 1px solid whitesmoke;
+        }
+        #navigation li a{
+            display: block;
+            height: 1em;
+            padding: 5px 5px 5px 0.5em;
+            text-decoration: none;
+        }
+        #navigation li a:link, #navigation li a:visited{
+            background-color: blue;
+            color: azure;
+        }
+        #navigation li a:hover{
+            background-color: cornflowerblue;
+            color: #717171;
+        }
+    </style>
+
+<body>
+<div id="navigation">
+<ul>
+    <li><a href="#">Main page</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">My album</a></li>
+    <li><a href="#">Leave message</a></li>
+    <li><a href="#">About me</a></li>
+</ul>
+</div>
+<ol>
+    <li>Main page</li>
+    <li>Blog</li>
+    <li>My album</li>
+    <li>Leave message</li>
+    <li>About me</li>
+</ol>
+
+</body>
+</html>

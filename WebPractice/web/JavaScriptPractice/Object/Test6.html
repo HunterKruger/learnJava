@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window常用对象方法及事件</title>
+
+</head>
+<body>
+<script type="text/javascript">
+    function currentTime(){
+        var dateFY=new Date();
+        var year=dateFY.getFullYear();
+        var month=dateFY.getMonth()+1;
+        var date=dateFY.getDate();
+        var hour=dateFY.getHours();
+        var min=dateFY.getMinutes();
+        var sec=dateFY.getSeconds();
+        var full=year+" "+month+" "+date+" "+hour+":"+min+":"+sec;
+        document.getElementById("today").innerHTML=full;
+    }
+    window.setInterval("currentTime()",1000);
+
+</script>
+<div id="today">
+
+</div>
+</body>
+</html>

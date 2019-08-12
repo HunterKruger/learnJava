@@ -1,0 +1,26 @@
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('1','tom','math','56');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('2','tom','english','95');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('3','tom','sport','23');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('4','alle','math','75');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('5','alle','english','94');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('6','alle','sport','85');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('7','sam','math','75');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('8','sam','english','94');
+INSERT INTO `t_grade` (`id`,`stuName`,`course`,`score`) VALUES ('9','sam','sport','85');
+
+SELECT count(*) FROM t_grade;
+SELECT count(*) as total FROM t_grade;
+
+SELECT stuName, count(*) FROM t_grade GROUP BY stuName;
+
+SELECT stuName, sum(score) FROM t_grade WHERE stuName='tom';
+SELECT stuName, sum(score) FROM t_grade GROUP BY stuName;
+
+SELECT stuName, avg(score) FROM t_grade WHERE stuName='tom';
+SELECT stuName, avg(score) FROM t_grade GROUP BY stuName;
+
+SELECT stuName, max(score) FROM t_grade WHERE stuName='tom';
+SELECT stuName, max(score) FROM t_grade GROUP BY stuName;
+
+SELECT stuName, min(score) FROM t_grade WHERE stuName='tom';
+SELECT stuName, min(score) FROM t_grade GROUP BY stuName;

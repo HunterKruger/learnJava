@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function speak(sth){
+        alert(sth);
+    }
+    var p=new Object();
+    alert(p);
+    p.name="Jack";
+    alert(p.name);  //动态添加属性
+    p.func=speak("fuck");   //动态添加方法
+
+
+    delete p.name;     // p.name=undefined 也行
+    alert(p.name);
+    delete p.func;
+    p.func("Asshole");
+
+</script>
+</body>
+</html>

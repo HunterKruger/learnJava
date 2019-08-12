@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window常用对象方法及事件</title>
+    <script type="text/javascript">
+        window.onload=function(){  //发生在文档全部加载完毕的时候
+            alert("文档加载完毕!");
+        }
+        window.onresize=function(){
+            alert("窗体大小发生改变");
+        }
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+    window.alert("window对象的alert方法");
+    var a=window.confirm("你去吃屎好吗?");
+    if(a==true)
+        document.write("那就多吃点"+"<hr>");
+    else
+        document.write("不吃也得吃"+"<hr>");
+
+    var b=window.prompt("除了吃屎你还喜欢吃啥?");
+    document.write("原来你还喜欢吃"+b+"啊!");
+</script>
+</body>
+</html>

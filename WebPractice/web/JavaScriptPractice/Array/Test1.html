@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var arr1=new Array();
+    var arr2=new Array(3);
+    arr1[0]="jack";
+    arr1[1]="tom";
+    arr1[2]="anne";
+    arr1[3]="bob";
+    arr1[4]="mike";
+    arr2[0]=6;
+    arr2[1]=2;
+    arr2[2]=3;
+    for(var i=0;i<arr1.length;i++){
+        document.write(arr1[i]+" ");
+    }
+    document.write("<br>");
+
+    var o;
+    for(o in arr2){
+        document.write(arr2[o]+" ");
+    }
+    document.write("<hr>");
+
+    document.write(arr1.sort());  //排序
+    document.write("<br>");
+    document.write(arr2.sort());
+    document.write("<hr>");
+
+    document.write(arr1.join("."));   //组合成字符串
+    document.write("<br>");
+    document.write(arr2.join("."));
+    document.write("<hr>");
+
+    document.write(arr1.concat(arr2));  //合并数组元素
+    document.write("<hr>");
+
+    document.write(arr1.reverse());
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+CREATE TRIGGER trig_book AFTER INSERT
+  ON t_book FOR EACH ROW
+    UPDATE t_booktype SET bookNumber= bookNumber+1 WHERE new.bookTypeId=t_booktype.id;
+
+INSERT INTO t_book VALUES (NULL ,'C++ primer','Jacky','70','1');
+
+
+DELIMITER |
+CREATE TRIGGER trig_book2 AFTER DELETE
+  ON t_book FOR EACH ROW
+    BEGIN
+      UPDATE t_booktype SET bookNumber=bookNumber-1 WHERE old.bookTypeId=t_booktype.id;
+      INSERT INTO t_log VALUES (NULL,now(),'deleted a data from book table');
+      DELETE FROM t_test WHERE old.bookTypeId=t_test.id;
+    END;
+|
+DELIMITER ;
+
+DELETE FROM t_book WHERE id=13;
+
+
+SHOW TRIGGERS;
+
+DROP TRIGGER trig_book;

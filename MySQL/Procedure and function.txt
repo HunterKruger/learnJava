@@ -1,0 +1,81 @@
+DELIMITER &&
+  CREATE PROCEDURE pro_book (IN mm INT,OUT countNum INT)
+    READS SQL DATA
+    BEGIN
+      SELECT count(*) FROM t_book WHERE bookTypeId=mm;
+    END &&
+DELIMITER ;
+
+CALL pro_book(1,@total);
+
+DELIMITER &&
+  CREATE FUNCTION func_book(bookId INT)
+  RETURNS VARCHAR(20)
+  BEGIN
+    RETURN (SELECT bookName FROM t_book WHERE  id=bookId);
+  END &&
+DELIMITER ;
+
+SELECT func_book(1);
+
+DELIMITER &&
+CREATE PROCEDURE `pro_user`()
+  BEGIN
+    DECLARE a,b VARCHAR(20);
+    INSERT INTO t_user VALUES (NULL,a,b);
+  END
+&&
+DELIMITER ;
+
+CALL pro_user();
+
+DELIMITER &&
+CREATE PROCEDURE `pro_user2`()
+  BEGIN
+    DECLARE a,b VARCHAR(20);
+    SET a='java1234', b='123456';
+    INSERT INTO t_user VALUES (NULL,a,b);
+  END
+&&
+DELIMITER ;
+
+CALL pro_user2();
+
+DELIMITER &&
+CREATE PROCEDURE `pro_user3`()
+  BEGIN
+    DECLARE a,b VARCHAR(20);
+    SELECT userName2,password2 into a,b FROM t_user2 WHERE id=1;
+    INSERT INTO t_user VALUES (NULL,a,b);
+  END
+&&
+DELIMITER ;
+
+CALL pro_user3();
+
+DELIMITER &&
+CREATE PROCEDURE `pro_user4`()
+  BEGIN
+    DECLARE a,b VARCHAR(20);
+    DECLARE cur_t_user2 CURSOR FOR SELECT userName2,password2 from t_user2;
+    OPEN cur_t_user2;
+    FETCH cur_t_user2 INTO a,b;
+    CLOSE cur_t_user2;
+    INSERT INTO t_user VALUES (NULL,a,b);
+  END
+&&
+DELIMITER ;
+
+CALL pro_user4();
+
+DELIMITER &&
+CREATE PROCEDURE pro_getBookNameById(IN bookId INT,OUT bN VARCHAR(20))
+  BEGIN
+        SELECT bookName INTO bN FROM t_book WHERE id=bookId;
+  END;
+&&
+DELIMITER ;
+
+CALL pro_getBookNameById(12,@bookName);
+
+SELECT @bookName;
