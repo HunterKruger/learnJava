@@ -5,41 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218fc621-6d7a-43f5-b519-fb8206ec85c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ISMIN/Seance1/Hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ISMIN/Seance1/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ISMIN/Seance1/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ISMIN/Seance1/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/Champ.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/Hello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/Minesweeper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/TableTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/META-INF/JavaSE.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/Seance1/Champ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/Seance1/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/Seance1/Minesweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/Seance1/TableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/Champ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/Minesweeper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/allclasses-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/allclasses-noframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/constant-values.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/deprecated-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/package-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doc/Miner/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Joueur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/ArrayShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/ArrayShellSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/Champ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/Minesweeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Seance1/TableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/Seance1/Champ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Champ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/Seance1/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/Seance1/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Minesweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/Seance1/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/TableTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +48,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ISMIN.Seance1" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -92,12 +73,12 @@
       </method>
     </configuration>
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ISMIN.Seance1.Hello" />
+      <option name="MAIN_CLASS_NAME" value="ISMIN.MineSweeper.Hello" />
       <module name="JavaSE" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ISMIN.Seance1.*" />
+          <option name="PATTERN" value="ISMIN.MineSweeper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +87,12 @@
       </method>
     </configuration>
     <configuration name="Minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ISMIN.Seance1.Minesweeper" />
+      <option name="MAIN_CLASS_NAME" value="ISMIN.MineSweeper.Minesweeper" />
       <module name="JavaSE" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ISMIN.Seance1.*" />
+          <option name="PATTERN" value="ISMIN.MineSweeper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,7 +196,7 @@
       <workItem from="1565605205681" duration="111000" />
       <workItem from="1567070604377" duration="3923000" />
       <workItem from="1567180079061" duration="562000" />
-      <workItem from="1567492914948" duration="10557000" />
+      <workItem from="1567492914948" duration="20456000" />
     </task>
     <servers />
   </component>

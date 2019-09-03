@@ -1,4 +1,4 @@
-package ISMIN.Seance1;
+package ISMIN.MineSweeper;
 
 /**
  * Created by FY on 03/09/19.
