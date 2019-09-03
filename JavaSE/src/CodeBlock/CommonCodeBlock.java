@@ -10,7 +10,7 @@ public class CommonCodeBlock {
 			a=2;
             System.out.println("Common Code Block!");
 		}
-		System.out.println("a="+a);
+		System.out.println("a="+ a);
 	}
 
 }

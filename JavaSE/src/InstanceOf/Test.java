@@ -20,6 +20,9 @@ public class Test {
         System.out.println("cat对象属于Cat类吗?"+(cat instanceof Cat));
         System.out.println("cat对象属于Dog类吗?"+(cat instanceof Dog));
         Animal fy=new Dog();
+        System.out.println("fy对象属于Animal类吗?"+(fy instanceof Animal));
+        System.out.println("fy对象属于Cat类吗?"+(fy instanceof Cat));
+        System.out.println("fy对象属于Dog类吗?"+(fy instanceof Dog));
         Animal fy2=new Cat();
         doIt(fy);
         doIt(fy2);

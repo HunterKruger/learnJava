@@ -5,5 +5,5 @@ package Interface;
 public interface House {
     String now2="I have a house.";
     int value=1000000;
-    public void intro2();
+    public void introHouse();
 }

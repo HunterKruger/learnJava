@@ -17,8 +17,7 @@ public class Square extends Shape {
 	@Override
 	public double cir() {
 		// TODO Auto-generated method stub
-		int z=this.getA()*4;
-		return z;
+		return this.getA()*4;
 	}
 	
 	public static void main(String[] args) {
