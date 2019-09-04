@@ -2,35 +2,46 @@ package ISMIN.MineSweeper;
 
 import java.util.* ;
 
-public class Champ {
+public class MineField {
 
-//    private int numMines ;
-//    private int dimension ;
     private int numMines;
     private int dimension;
     private Random random = new Random();
     private boolean [][] mineField;
     public enum Level{EASY,NORMAL,HARD}
+    private String niveau;
 
-    public Champ(){   //EASY by default
-        this(Level.EASY);
-        dimension = 10;
-        numMines = 20;
-        initChamp();
+    public String getNiveau() {
+        return niveau;
     }
 
-    public Champ(Level level){
+    public int getNumMines() {
+        return numMines;
+    }
+
+    public int getDimension() {
+        return dimension;
+    }
+
+    public MineField(){   //EASY by default
+        this(Level.EASY);
+    }
+
+    public MineField(Level level){
         if(level==Level.EASY){
+            niveau="EASY";
             dimension = 10;
             numMines = 20;
         }
         if(level==Level.NORMAL){
+            niveau="NORMAL";
             dimension = 20;
             numMines = 80;
         }
         if(level==Level.HARD){
+            niveau="HARD";
             dimension = 30;
-            numMines = 200;
+            numMines = 350;
         }
         initChamp();
     }
@@ -79,21 +90,21 @@ public class Champ {
         }
         int xx=x+1;
         int yy=y+1;
-        if(expand[xx-1][yy-1]==true)
+        if(expand[xx-1][yy-1])
             numMinesAround++;
-        if(expand[xx-1][yy]==true)
+        if(expand[xx-1][yy])
             numMinesAround++;
-        if(expand[xx-1][yy+1]==true)
+        if(expand[xx-1][yy+1])
             numMinesAround++;
-        if(expand[xx][yy-1]==true)
+        if(expand[xx][yy-1])
             numMinesAround++;
-        if(expand[xx][yy+1]==true)
+        if(expand[xx][yy+1])
             numMinesAround++;
-        if(expand[xx+1][yy-1]==true)
+        if(expand[xx+1][yy-1])
             numMinesAround++;
-        if(expand[xx+1][yy]==true)
+        if(expand[xx+1][yy])
             numMinesAround++;
-        if(expand[xx+1][yy+1]==true)
+        if(expand[xx+1][yy+1])
             numMinesAround++;
 //        for (int i = 0; i < dimension + 2; i++) {
 //            for (int j = 0; j < dimension + 2; j++) {
@@ -115,6 +126,10 @@ public class Champ {
             }
             System.out.println();
         }
+    }
+
+    public boolean isMine(int x, int y){
+        return mineField[x][y];
     }
 
 }

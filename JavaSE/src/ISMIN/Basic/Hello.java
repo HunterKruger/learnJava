@@ -1,4 +1,4 @@
-package ISMIN.MineSweeper;
+package ISMIN.Basic;
 
 /**
  * Created by FY on 03/09/19.

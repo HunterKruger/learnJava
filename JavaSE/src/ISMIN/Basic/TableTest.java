@@ -1,4 +1,4 @@
-package ISMIN.MineSweeper;
+package ISMIN.Basic;
 
 public class TableTest {
     public static void main(String[] args) {

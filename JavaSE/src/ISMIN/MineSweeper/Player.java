@@ -1,19 +1,19 @@
 package ISMIN.MineSweeper;
 
-public class Joueur {
+public class Player {
     private int score;
     private String name;
 
-    public Joueur(int score, String name) {
+    public Player(int score, String name) {
         this.score = score;
         this.name = new String(name);
     }
 
-    public Joueur() {
+    public Player() {
         score = 0;
     }
 
-    public Joueur(int score) {
+    public Player(int score) {
         this.score = score;
     }
 
