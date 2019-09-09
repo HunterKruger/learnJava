@@ -70,7 +70,7 @@ public class MineField {
     public void showText(){
         for (int i = 0; i < dimension; i++) {
             for (int j = 0; j < dimension; j++) {
-                if(mineField[i][j] == true) {
+                if(mineField[i][j]) {
                     System.out.print("X ");
                 }else {
                     System.out.print("O ");
@@ -118,7 +118,7 @@ public class MineField {
     public void showTextWithMinesNum(){
         for (int i = 0; i < dimension; i++) {
             for (int j = 0; j < dimension; j++) {
-                if(mineField[i][j] == true) {
+                if(mineField[i][j]) {
                     System.out.print("X ");
                 }else {
                     System.out.print(calculateMinesAround(i, j)+" ");

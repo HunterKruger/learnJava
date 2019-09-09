@@ -5,174 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218fc621-6d7a-43f5-b519-fb8206ec85c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Basic/Hello.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/Basic/TableTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField$Level.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/AbstractClass/Round.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/AbstractClass/Round.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/AbstractClass/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/AbstractClass/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/CodeBlock/ConstructorCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/CodeBlock/ConstructorCodeBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/CodeBlock/StaticCodeBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/CodeBlock/StaticCodeBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/CalendarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/CalendarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/DateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/DateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/MathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/MathTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/SimpleDateFormatTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/CommonlyUsedClass/SimpleDateFormatTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/ArrayMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/ArrayMergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/QuickSort/ArrayPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/QuickSort/ArrayPartition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/QuickSort/ArrayQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/QuickSort/ArrayQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/QuickSort/ArrayQuickSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/AdvancedSort/QuickSort/ArrayQuickSort2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Array/ArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Array/ArrayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Array/InputArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Array/InputArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/ArrayListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/ArrayListTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/ArrayListTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/ArraysTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/ArraysTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/HashMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/HashSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/HashSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/LinkedListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/LinkedListTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/LinkedListTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/LinkedListTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/LinkedListTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/Man.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/BFSApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/BFSApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/DFSApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/DFSApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/QueueX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/QueueX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/StackX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/StackX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Graph/Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Hash/DataItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Hash/DataItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Hash/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Hash/HashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Hash/HashTableApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Hash/HashTableApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/HashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/HashTableApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/HashTableApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/SortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/HashChain/SortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/DoublyLinkedList/FirstLastLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/DoublyLinkedList/FirstLastLink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/DoublyLinkedList/FirstLastLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/DoublyLinkedList/FirstLastLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/FirstLastLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/FirstLastLink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/LinkQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/LinkQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/LinkQueueApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkQueue/LinkQueueApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/LinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/LinkStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/LinkStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/LinkStackApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/LinkStack/LinkStackApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SinglyLinkedList/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SinglyLinkedList/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SinglyLinkedList/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SinglyLinkedList/LinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SortedLinkedList/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SortedLinkedList/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SortedLinkedList/SortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SortedLinkedList/SortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SortedLinkedList/SortedListApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/LinkList/SortedLinkedList/SortedListApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Queue/PriortyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Queue/PriortyQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Queue/QueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Queue/QueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Recursion/FactorialAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Recursion/FactorialAPP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Recursion/TriangleAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Recursion/TriangleAPP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/SimpleSort/ArrayTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/SimpleSort/ArrayTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/SimpleSort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/SimpleSort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/SimpleSort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/SimpleSort/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/BracketChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/BracketChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/StackTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/StackX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Stack/StackX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Tree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Tree/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Tree/TreeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/Tree/TreeApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/CustomException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/ExceptingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/ExceptingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/Key.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/RuntimeException0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/RuntimeException0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/Throw.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/Throw.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/Throws.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/Throws.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Exception/TryCatchFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Exception/TryCatchFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Genericity/A1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Genericity/A1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Genericity/A2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Genericity/A2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Genericity/A3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Genericity/A3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Genericity/AA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Genericity/AA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Genericity/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Genericity/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/ByteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/ByteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/ByteTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/ByteTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/ByteTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/ByteTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/FileTest4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/InputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/InputStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/OutputStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/OutputStreamTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/IOStream/PerformanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/IOStream/PerformanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Champ$Level.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Champ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Joueur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Minesweeper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/TableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Inherit/Employer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Inherit/Employer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Inherit/Programmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Inherit/Programmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Inherit2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Inherit2/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Inherit2/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Inherit2/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/InstanceOf/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/InstanceOf/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/InstanceOf/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/InstanceOf/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/InstanceOf/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/InstanceOf/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Leetcode/TwoNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Leetcode/TwoNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/MultiThreadEatMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/MultiThreadEatMusic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadEat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadEat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadMusic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadMusic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Input2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Input2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Input3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Input3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/MethodOverload.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/MethodOverload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/MethodOverload2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/MethodOverload2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/MethodStaticCommon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/MethodStaticCommon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Person2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Person2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Person3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Person3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/StaticMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/StaticMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Student2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/OOP/Tricir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/OOP/Tricir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Package/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Package/Auto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Package/Manual.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Package/Manual.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Package/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Package/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Polymorphism/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/String/EqualsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/String/EqualsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/String/Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/String/Exercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/String/StringBufferTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/String/StringBufferTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/String/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/String/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/String/StringTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/String/StringTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ThinkingInJava/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ThinkingInJava/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ThinkingInJava/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ThinkingInJava/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/ButtonGrid_96.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/ButtonGrid_96.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/ButtonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/ButtonHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/FirstFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/FirstFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/FiveButtons_95.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/FiveButtons_95.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/HelloWorldSwing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/HelloWorldSwing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/MenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/MenuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/PanelInFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/PanelInFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/TestAddListener_910.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/TestAddListener_910.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/TestButton_99.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/TestButton_99.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/Visual/TwoButton_93.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/Visual/TwoButton_93.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Champ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/Basic/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Joueur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Minesweeper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/Basic/TableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -355,7 +190,10 @@
       <workItem from="1567070604377" duration="3923000" />
       <workItem from="1567180079061" duration="562000" />
       <workItem from="1567492914948" duration="20456000" />
-      <workItem from="1567624824210" duration="366000" />
+      <workItem from="1567624824210" duration="499000" />
+      <workItem from="1567687766080" duration="303000" />
+      <workItem from="1567775741986" duration="43000" />
+      <workItem from="1567852367162" duration="515000" />
     </task>
     <servers />
   </component>
