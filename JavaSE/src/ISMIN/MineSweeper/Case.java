@@ -1,0 +1,85 @@
+package ISMIN.MineSweeper;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+public class Case extends JPanel implements MouseListener {
+
+    private final static int DIMENSION = 20;
+    private int x;
+    private int y;
+    private AppMinesweeper app;
+    private boolean leftClicked=false;
+
+    public Case(int x, int y, AppMinesweeper app){
+        setPreferredSize(new Dimension(DIMENSION,DIMENSION));  //size of the case
+        addMouseListener(this);
+        this.x=x;
+        this.y=y;
+        this.app=app;
+    }
+
+    public void newgame(){
+        leftClicked = false;
+        repaint();
+    }
+
+    public void paintComponent(Graphics gc){
+        super.paintComponent(gc);  //erase previous picture
+        gc.setColor(Color.LIGHT_GRAY);
+        gc.fillRect(1,1, getWidth(), getHeight());
+        BufferedImage image=null;
+        if(leftClicked){
+            if(app.getMineField().isMine(x,y)){
+                try{
+                    image = ImageIO.read(new File("img/bomb.png"));
+                    gc.drawImage(image,0,0,this.getWidth(),this.getHeight(),this);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }else{  //not mine
+                gc.setColor(Color.WHITE); //set field color
+                if(app.getMineField().calculateMinesAround(x,y)==0){
+                    gc.fillRect(1,1,getWidth(),getHeight());
+                }else {
+                    gc.fillRect(1,1,getWidth(),getHeight());
+                    gc.setColor(Color.BLUE); //set color for number
+                    gc.drawString(String.valueOf(app.getMineField().calculateMinesAround(x,y)),getWidth()/2,getHeight()/2);
+                }
+            }
+        }
+
+    }
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+        leftClicked = true;
+        repaint();
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+
+    }
+}

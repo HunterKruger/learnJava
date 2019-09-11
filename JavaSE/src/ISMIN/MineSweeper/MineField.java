@@ -6,14 +6,10 @@ public class MineField {
 
     private int numMines;
     private int dimension;
+    private String level;
     private Random random = new Random();
     private boolean [][] mineField;
-    public enum Level{EASY,NORMAL,HARD}
-    private String niveau;
-
-    public String getNiveau() {
-        return niveau;
-    }
+    ///public enum Level{EASY,NORMAL,HARD}
 
     public int getNumMines() {
         return numMines;
@@ -24,35 +20,32 @@ public class MineField {
     }
 
     public MineField(){   //EASY by default
-        this(Level.EASY);
+        this("EASY");
     }
 
-    public MineField(Level level){
-        if(level==Level.EASY){
-            niveau="EASY";
+    public MineField(String level){
+        this.level=level;
+        initChamp(level);
+    }
+
+    public String getLevel(){return level;}
+
+    public void initChamp(String level){
+        this.level=level;
+        if(level.equals("EASY")){
             dimension = 10;
             numMines = 20;
         }
-        if(level==Level.NORMAL){
-            niveau="NORMAL";
+        if(level.equals("NORMAL")){
             dimension = 20;
             numMines = 80;
         }
-        if(level==Level.HARD){
-            niveau="HARD";
+        if(level.equals("HARD")){
             dimension = 30;
             numMines = 350;
         }
-        initChamp();
-    }
 
-    public void initChamp(){
         mineField = new boolean[dimension][dimension];
-        placeMines();
-    }
-
-
-    public void placeMines(){
         //clear all mines
         for (int i = 0; i < dimension; i++) {
             for (int j = 0; j < dimension; j++) {
@@ -78,6 +71,7 @@ public class MineField {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     public int calculateMinesAround(int x, int y){
@@ -126,10 +120,14 @@ public class MineField {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     public boolean isMine(int x, int y){
         return mineField[x][y];
     }
 
+//    public void mineClicked(){
+//        numMines--;
+//    }
 }
