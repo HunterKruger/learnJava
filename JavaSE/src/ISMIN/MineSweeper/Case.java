@@ -15,7 +15,7 @@ public class Case extends JPanel implements MouseListener {
     private int x;
     private int y;
     private AppMinesweeper app;
-    private boolean leftClicked=false;
+    private boolean clicked = false;
 
     public Case(int x, int y, AppMinesweeper app){
         setPreferredSize(new Dimension(DIMENSION,DIMENSION));  //size of the case
@@ -26,7 +26,7 @@ public class Case extends JPanel implements MouseListener {
     }
 
     public void newgame(){
-        leftClicked = false;
+        clicked = false;
         repaint();
     }
 
@@ -35,22 +35,25 @@ public class Case extends JPanel implements MouseListener {
         gc.setColor(Color.LIGHT_GRAY);
         gc.fillRect(1,1, getWidth(), getHeight());
         BufferedImage image=null;
-        if(leftClicked){
-            if(app.getMineField().isMine(x,y)){
-                try{
-                    image = ImageIO.read(new File("img/bomb.png"));
-                    gc.drawImage(image,0,0,this.getWidth(),this.getHeight(),this);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }else{  //not mine
-                gc.setColor(Color.WHITE); //set field color
-                if(app.getMineField().calculateMinesAround(x,y)==0){
-                    gc.fillRect(1,1,getWidth(),getHeight());
-                }else {
-                    gc.fillRect(1,1,getWidth(),getHeight());
-                    gc.setColor(Color.BLUE); //set color for number
-                    gc.drawString(String.valueOf(app.getMineField().calculateMinesAround(x,y)),getWidth()/2,getHeight()/2);
+        if(!app.isLost()){
+            if(clicked){
+                if(app.getMineField().isMine(x,y)){
+                    try{
+                        image = ImageIO.read(new File("img/bomb.png"));
+                        gc.drawImage(image,0,0,this.getWidth(),this.getHeight(),this);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                }else{  //not mine
+                    gc.setColor(Color.WHITE); //set field color
+                    if(app.getMineField().calculateMinesAround(x,y)==0){
+                        gc.fillRect(1,1,getWidth(),getHeight());
+                    }else {
+                        gc.fillRect(1,1,getWidth(),getHeight());
+                        gc.setColor(Color.BLUE); //set color for number
+                        gc.drawString(String.valueOf(app.getMineField().calculateMinesAround(x,y)),getWidth()/2,getHeight()/2);
+                    }
                 }
             }
         }
@@ -64,8 +67,39 @@ public class Case extends JPanel implements MouseListener {
 
     @Override
     public void mousePressed(MouseEvent e) {
-        leftClicked = true;
-        repaint();
+
+        if(!clicked && !app.getMineField().isMine(x,y) && !app.isLost() && app.isStarted()){
+            app.increaseNumMineDiscovered();
+        }
+
+        clicked = true;
+
+        if(!app.isLost()){  //not lost
+
+            if(!app.isStarted()){
+                app.getIhm().getTime().startCounter();
+                app.setStarted(true);
+                app.setLost(false);
+            }
+
+            repaint();
+
+            if(app.getMineField().isMine(x,y)){
+                app.getIhm().getTime().stopCounter();
+                JOptionPane.showMessageDialog(null,"You lose !");
+                app.setLost(true);
+                app.newgame();
+            }
+
+        }
+
+        //win
+        if(app.isWin()){
+            app.getIhm().getTime().stopCounter();
+            JOptionPane.showMessageDialog(null, "You win, slick!\n Time:"+(app.getIhm().getTime().getProcessTime()+1));
+            app.newgame();
+        }
+
     }
 
     @Override

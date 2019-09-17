@@ -9,7 +9,6 @@ public class ThreadTest3 implements Runnable{
             Thread th=new Thread();
             System.out.println(th.currentThread().getName()+":"+i);//返回线程的名称
         }
-
     }
 
     public static void main(String[] args) {

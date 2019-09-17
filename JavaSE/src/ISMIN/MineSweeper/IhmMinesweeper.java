@@ -9,12 +9,15 @@ import javax.swing.* ;
 public class IhmMinesweeper extends JPanel {
 
     private Case[][] tabCases;
+    private Counter counter;
+
+    public Counter getTime() {
+        return counter;
+    }
 
     public Case[][] getTabCases() {
         return tabCases;
     }
-
-
 
     public IhmMinesweeper(AppMinesweeper app) {
 
@@ -45,7 +48,7 @@ public class IhmMinesweeper extends JPanel {
         normal.addActionListener(new ActionMinesweeper(ActionMinesweeper.NORMAL,app));
 
 
-        JMenuItem hard = new JMenuItem("HARD",KeyEvent.VK_H);
+        JMenuItem hard = new JMenuItem("HARD", KeyEvent.VK_H);
         hard.setAccelerator(KeyStroke.getKeyStroke( KeyEvent.VK_H, ActionEvent.CTRL_MASK));
         hard.addActionListener(new ActionMinesweeper(ActionMinesweeper.HARD,app));
 
@@ -85,14 +88,15 @@ public class IhmMinesweeper extends JPanel {
         left.add(mineGame);
 
         JPanel center = new JPanel();
-        left.setLayout(new FlowLayout(FlowLayout.CENTER));
-        JLabel face = new JLabel();
-        Icon icon = new ImageIcon("img/happy.png");
-        face.setIcon(icon);
-        center.add(face);
+        center.setLayout(new FlowLayout(FlowLayout.CENTER));
+        counter = new Counter();
+        counter.setText(String.valueOf(counter.getProcessTime()));
+        //Icon icon = new ImageIcon("img/happy.png");
+        //face.setIcon(icon);
+        center.add(counter);
 
         JPanel right = new JPanel();
-        left.setLayout(new FlowLayout(FlowLayout.CENTER));
+        right.setLayout(new FlowLayout(FlowLayout.CENTER));
         JLabel levelGame = new JLabel(app.getMineField().getLevel());
         right.add(levelGame);
 
@@ -124,9 +128,6 @@ public class IhmMinesweeper extends JPanel {
         JButton buttonQuit = new JButton("Quit");
         buttonQuit.addActionListener( new ActionMinesweeper(ActionMinesweeper.QUIT, app));
         add(buttonQuit,BorderLayout.SOUTH);
-
     }
-
-
 
 }

@@ -37,7 +37,5 @@ public class ThreadTest1 extends Thread {
         th1.start();
         th2.start();
 
-
-
     }
 }
