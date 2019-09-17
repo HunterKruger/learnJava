@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218fc621-6d7a-43f5-b519-fb8206ec85c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/bomb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/happy.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/happy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Case.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Case.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Case.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Case.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField$Level.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,6 +200,8 @@
       <workItem from="1567852367162" duration="515000" />
       <workItem from="1568113942248" duration="16856000" />
       <workItem from="1568131753577" duration="10723000" />
+      <workItem from="1568189231593" duration="1056000" />
+      <workItem from="1568198512793" duration="113000" />
     </task>
     <servers />
   </component>

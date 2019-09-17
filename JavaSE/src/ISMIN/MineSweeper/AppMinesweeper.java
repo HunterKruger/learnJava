@@ -15,7 +15,6 @@ public class AppMinesweeper extends JFrame {
         setVisible(true) ;
         mineField.showTextWithMinesNum();
 //        System.out.println(champ.calculateMinesAround(1,1));
-
     }
 
     public MineField getMineField() {
