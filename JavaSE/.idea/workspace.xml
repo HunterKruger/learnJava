@@ -5,45 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218fc621-6d7a-43f5-b519-fb8206ec85c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/file/mineTime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Counter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISMIN/Seance1/Hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISMIN/Seance1/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISMIN/Seance1/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ISMIN/Seance1/package-tree.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/binLadin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bomb.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Case.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Case.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/MultiThread/ThreadTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThread/ThreadTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThread/ThreadTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThread/ThreadTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThread/ThreadTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/Champ.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/Minesweeper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/ISMIN/Seance1/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Miner/stylesheet.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +201,8 @@
       <workItem from="1568131753577" duration="10723000" />
       <workItem from="1568189231593" duration="1056000" />
       <workItem from="1568198512793" duration="113000" />
-      <workItem from="1568718790460" duration="15974000" />
+      <workItem from="1568718790460" duration="16173000" />
+      <workItem from="1568802830024" duration="1830000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,8 @@
 package ISMIN.MineSweeper;
 
+import sun.audio.AudioPlayer;
+import sun.audio.AudioStream;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -7,6 +10,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Case extends JPanel implements MouseListener {
@@ -65,6 +69,17 @@ public class Case extends JPanel implements MouseListener {
 
     }
 
+
+    public void playMusic() {
+        try {
+            FileInputStream fileaudio = new FileInputStream("/Users/FY/Desktop/workspaceMac/learnJava/JavaSE/img/bomb.wav");
+            AudioStream as = new AudioStream(fileaudio);
+            AudioPlayer.player.start(as);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
     public void mousePressed(MouseEvent e) {
 
@@ -86,7 +101,9 @@ public class Case extends JPanel implements MouseListener {
 
             if(app.getMineField().isMine(x,y)){
                 app.getIhm().getTime().stopCounter();
-                JOptionPane.showMessageDialog(null,"You lose !");
+                Icon binLadin = new ImageIcon("/Users/FY/Desktop/workspaceMac/learnJava/JavaSE/img/binLadin.jpeg");
+                playMusic();
+                JOptionPane.showMessageDialog(null,"Allah Akbar!","NOOB",1,binLadin);
                 app.setLost(true);
                 app.newgame();
             }
