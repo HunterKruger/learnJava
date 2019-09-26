@@ -23,7 +23,5 @@ public class HashMapTest {
             System.out.println("key="+key+" value["+student.getName()+" "+student.getAge()+"]");
         }
 
-
-
     }
 }

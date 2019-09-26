@@ -13,6 +13,7 @@ public class ActionMinesweeper implements ActionListener {
     public static final int NORMAL = 5;
     public static final int HARD = 6;
     public static final int MIUNSMINES = 7;
+    public static final int CONNECT = 8;
 
     private AppMinesweeper app;
     private int type;
@@ -46,8 +47,11 @@ public class ActionMinesweeper implements ActionListener {
         if(type==HARD){
             app.newgame("HARD");
         }
-//        if(type==MIUNSMINES){
-//            app.mineClicked();
-//        }
+        if(type==CONNECT){
+            app.connectToServer(app.getIhm().getHostnameField().getText(),
+                    Integer.parseInt(app.getIhm().getPortField().getText()),
+                    app.getIhm().getPsuedoField().getText());
+        }
+
     }
 }

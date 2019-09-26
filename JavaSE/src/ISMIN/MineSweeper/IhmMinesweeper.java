@@ -10,6 +10,27 @@ public class IhmMinesweeper extends JPanel {
 
     private Case[][] tabCases;
     private Counter counter;
+    private JTextField hostnameField = new JTextField(AppMinesweeper.HOSTNAME,5);
+    private JTextField portField = new JTextField(String.valueOf(AppMinesweeper.PORT),5);
+    private JTextField psuedoField = new JTextField(AppMinesweeper.PSUEDO,5);
+
+    private JTextArea messageArea = new JTextArea();
+
+    public void addMessage(String s){
+        messageArea.append(s);
+    }
+
+    public JTextField getHostnameField() {
+        return hostnameField;
+    }
+
+    public JTextField getPortField() {
+        return portField;
+    }
+
+    public JTextField getPsuedoField() {
+        return psuedoField;
+    }
 
     public Counter getTime() {
         return counter;
@@ -78,21 +99,23 @@ public class IhmMinesweeper extends JPanel {
         menuBar.add(help);
         app.setJMenuBar(menuBar);
 
+
+        JPanel info = new JPanel();
+        info.setLayout(new GridLayout(3,1));
+
+
         JPanel infoGame = new JPanel();
         infoGame.setLayout(new GridLayout(1,3));
 
         JPanel left = new JPanel();
         left.setLayout(new FlowLayout(FlowLayout.CENTER));
         JLabel mineGame = new JLabel("Mines:"+app.getMineField().getNumMines());
-        //mineGame.addActionListener((new ActionMinesweeper(ActionMinesweeper.MIUNSMINES,app)));
         left.add(mineGame);
 
         JPanel center = new JPanel();
         center.setLayout(new FlowLayout(FlowLayout.CENTER));
         counter = new Counter();
         counter.setText(String.valueOf(counter.getProcessTime()));
-        //Icon icon = new ImageIcon("img/happy.png");
-        //face.setIcon(icon);
         center.add(counter);
 
         JPanel right = new JPanel();
@@ -103,10 +126,59 @@ public class IhmMinesweeper extends JPanel {
         infoGame.add(left);
         infoGame.add(center);
         infoGame.add(right);
-        add(infoGame,BorderLayout.NORTH);
+
+
+
+
+        JPanel infoNetwork = new JPanel();
+        infoNetwork.setLayout(new FlowLayout());
+
+        JPanel A = new JPanel();
+        A.setLayout(new FlowLayout(FlowLayout.CENTER));
+        JLabel server = new JLabel("Server:");
+        A.add(server);
+
+        JPanel B = new JPanel();
+        B.setLayout(new FlowLayout(FlowLayout.CENTER));
+        B.add(hostnameField);
+
+        JPanel C = new JPanel();
+        C.setLayout(new FlowLayout(FlowLayout.CENTER));
+        C.add(portField);
+
+        JPanel D = new JPanel();
+        D.setLayout(new FlowLayout(FlowLayout.CENTER));
+        D.add(psuedoField);
+
+        infoNetwork.add(A);
+        infoNetwork.add(B);
+        infoNetwork.add(C);
+        infoNetwork.add(D);
+
+
+
+        JPanel infoButton = new JPanel();
+        infoButton.setLayout(new GridLayout(1,2));
+
+        JButton buttonQuit = new JButton("Quit");
+        buttonQuit.addActionListener( new ActionMinesweeper(ActionMinesweeper.QUIT, app));
+
+        JButton buttonConnect = new JButton("Connect");
+        buttonConnect.addActionListener( new ActionMinesweeper(ActionMinesweeper.CONNECT, app));
+
+        infoButton.add(buttonConnect);
+        infoButton.add(buttonQuit);
+
+
+
+        info.add(infoGame);
+        info.add(infoNetwork);
+        info.add(infoButton);
+
+
+        add(info,BorderLayout.NORTH);
 
         JPanel panelMines = new JPanel();
-        //System.out.println(app.getMineField().getDimension());
         panelMines.setLayout(new GridLayout(app.getMineField().getDimension(),app.getMineField().getDimension()));
 
         tabCases = new Case[app.getMineField().getDimension()][app.getMineField().getDimension()];
@@ -114,20 +186,13 @@ public class IhmMinesweeper extends JPanel {
             for (int j = 0; j < app.getMineField().getDimension(); j++) {
                 tabCases[i][j]=new Case(i,j,app);
                 panelMines.add(tabCases[i][j]);
-//                if(app.getMineField().isMine(i,j)){
-//                    //panelMines.add(new JLabel("x"));
-//                    panelMines.add(new JLabel(new ImageIcon(new ImageIcon("img/bomb.png").
-//                            getImage().getScaledInstance(20,20,Image.SCALE_SMOOTH))));
-//                }else{
-//                    panelMines.add(new JLabel(String.valueOf(app.getMineField().calculateMinesAround(i,j))));
-//                }
             }
         }
         add(panelMines,BorderLayout.CENTER);
 
-        JButton buttonQuit = new JButton("Quit");
-        buttonQuit.addActionListener( new ActionMinesweeper(ActionMinesweeper.QUIT, app));
-        add(buttonQuit,BorderLayout.SOUTH);
+
+        messageArea.setEditable(false);
+        add(messageArea,BorderLayout.SOUTH);
     }
 
 }

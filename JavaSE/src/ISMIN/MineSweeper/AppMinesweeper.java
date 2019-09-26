@@ -2,17 +2,34 @@ package ISMIN.MineSweeper;
 
 import javax.swing.*;
 import java.io.*;
+import java.net.Socket;
+import java.net.UnknownHostException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.sql.SQLOutput;
 
-public class AppMinesweeper extends JFrame {
+public class AppMinesweeper extends JFrame implements Runnable{
+
+    public static final int PORT=10000;
+    public static final String HOSTNAME="localhost";
+    public static final String PSUEDO="psuedo";
+    public static final int MSG=0;
+    public static final int POS=1;
+    public static final int START=2;
+    public static final int END=3;
+
+
 
     private MineField mineField = new MineField();
-    private int numMineDiscovered=0;
+    private int numMineDiscovered = 0;
     private IhmMinesweeper ihm ;
     private boolean started = false;
     private boolean lost = false;
+    private DataInputStream in;
+    private DataOutputStream out;
+    private Thread process;
+
 
     public void resetNumMineDiscovered() {
         this.numMineDiscovered = 0;
@@ -52,7 +69,6 @@ public class AppMinesweeper extends JFrame {
         pack() ;
         setVisible(true) ;
         mineField.showTextWithMinesNum();
-//        System.out.println(champ.calculateMinesAround(1,1));
     }
 
     public MineField getMineField() {
@@ -126,12 +142,61 @@ public class AppMinesweeper extends JFrame {
         return win;
     }
 
-    private void saveResult(){
-        Path path = Paths.get("/Users/FY/Desktop/workspaceMac/learnJava/JavaSE/file/mineTime.txt");
-        if(!Files.exists(path)){
+    public void connectToServer(String host, int port, String psuedo){
+        ihm.addMessage("Try to connect to " + host + ":" + port + "\n");
+        int i=0;
+        try {
+            Socket socket = new Socket(host,port);
+            ihm.addMessage("Success!\n");
+            in=new DataInputStream(socket.getInputStream());
+            out=new DataOutputStream(socket.getOutputStream());
+            process=new Thread(this);
+            process.start();
 
+        } catch (UnknownHostException e){
+            ihm.addMessage("Unknown host!\n");
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+            ihm.addMessage("IO exception!\n");
         }
     }
+
+
+    //event wait loop of server
+    public void run(){
+        //infinite loop
+        while(process!=null){
+            //read command
+            int cmd = 0;
+            try {
+                cmd = in.readInt();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            //according to what i read, i show the mine/number/gameover
+            if(cmd==MSG){  //send a message by server
+                String msg= null;
+                try {
+                    msg = in.readUTF();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                ihm.addMessage(msg);
+            }
+        }
+
+    }
+
+
+
+
+//    private void saveResult(){
+//        Path path = Paths.get("/Users/FY/Desktop/workspaceMac/learnJava/JavaSE/file/mineTime.txt");
+//        if(!Files.exists(path)){
+//
+//        }
+//    }
 
 //    public int readResult(){
 //        DataInputStream dis= null;
