@@ -9,21 +9,20 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.SQLOutput;
 
-public class AppMinesweeper extends JFrame implements Runnable{
+public class AppMinesweeper extends JFrame implements Runnable {
 
-    public static final int PORT=10000;
-    public static final String HOSTNAME="localhost";
-    public static final String PSUEDO="psuedo";
-    public static final int MSG=0;
-    public static final int POS=1;
-    public static final int START=2;
-    public static final int END=3;
-
+    public static final int PORT = 10000;
+    public static final String HOSTNAME = "localhost";
+    public static final String PSEUDO = "pseudo";
+    public static final int MSG = 0;
+    public static final int POS = 1;
+    public static final int START = 2;
+    public static final int END = 3;
 
 
     private MineField mineField = new MineField();
     private int numMineDiscovered = 0;
-    private IhmMinesweeper ihm ;
+    private IhmMinesweeper ihm;
     private boolean started = false;
     private boolean lost = false;
     private DataInputStream in;
@@ -55,19 +54,21 @@ public class AppMinesweeper extends JFrame implements Runnable{
         return ihm;
     }
 
-    public boolean isStarted(){return started;}
+    public boolean isStarted() {
+        return started;
+    }
 
-    public void setStarted(boolean started){
-        this.started=started;
+    public void setStarted(boolean started) {
+        this.started = started;
     }
 
     public AppMinesweeper() {
         mineField.showText();
-        ihm= new IhmMinesweeper(this) ;
-        setContentPane(ihm) ;
+        ihm = new IhmMinesweeper(this);
+        setContentPane(ihm);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        pack() ;
-        setVisible(true) ;
+        pack();
+        setVisible(true);
         mineField.showTextWithMinesNum();
     }
 
@@ -80,32 +81,32 @@ public class AppMinesweeper extends JFrame implements Runnable{
         new AppMinesweeper();
     }
 
-    public void quit(){
-        int response= JOptionPane.showConfirmDialog(null,
+    public void quit() {
+        int response = JOptionPane.showConfirmDialog(null,
                 "Are you sure to quit the game?", "Bye-Bye",
                 JOptionPane.YES_NO_OPTION, JOptionPane.ERROR_MESSAGE);
-        if(response==JOptionPane.YES_OPTION){
-            System.exit(0) ;
+        if (response == JOptionPane.YES_OPTION) {
+            System.exit(0);
         }
     }
 
-    public void newgame(){
+    public void newgame() {
         newgame(mineField.getLevel());
     }
 
-    public void newgame(String level){
+    public void newgame(String level) {
         mineField.initChamp(level);
         mineField.showText();
-        ihm= new IhmMinesweeper(this) ;
-        setContentPane(ihm) ;
+        ihm = new IhmMinesweeper(this);
+        setContentPane(ihm);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        pack() ;
+        pack();
 
         ihm.getTime().stopCounter();
         this.setLost(false);
         this.setStarted(false);
 
-        setVisible(true) ;
+        setVisible(true);
         mineField.showTextWithMinesNum();
         for (int i = 0; i < mineField.getDimension(); i++) {
             for (int j = 0; j < mineField.getDimension(); j++) {
@@ -115,26 +116,26 @@ public class AppMinesweeper extends JFrame implements Runnable{
         resetNumMineDiscovered();
     }
 
-    public void levelInformation(){
-        int response= JOptionPane.showConfirmDialog(null,
+    public void levelInformation() {
+        int response = JOptionPane.showConfirmDialog(null,
                 "Easy:10*10, 20 mines \nNormal:20*20, 80 mines\nHard:30*30, 350 mines", "Level information",
                 JOptionPane.CLOSED_OPTION);
-        if(response==JOptionPane.CLOSED_OPTION){
-            System.exit(0) ;
+        if (response == JOptionPane.CLOSED_OPTION) {
+            System.exit(0);
         }
     }
 
-    public void aboutAuthor(){
-        int response= JOptionPane.showConfirmDialog(null,
+    public void aboutAuthor() {
+        int response = JOptionPane.showConfirmDialog(null,
                 "FENG Yuan\nform EMSE", "About author",
                 JOptionPane.CLOSED_OPTION);
-        if(response==JOptionPane.CLOSED_OPTION){
-            System.exit(0) ;
+        if (response == JOptionPane.CLOSED_OPTION) {
+            System.exit(0);
         }
     }
 
     public boolean isWin() {
-        System.out.println("numMineDiscovered="+getNumMineDiscovered());
+        System.out.println("numMineDiscovered=" + getNumMineDiscovered());
         boolean win = numMineDiscovered + mineField.getNumMines() + 1 == mineField.getDimension() * mineField.getDimension();
 //        if(win){
 //            saveResult();
@@ -142,18 +143,18 @@ public class AppMinesweeper extends JFrame implements Runnable{
         return win;
     }
 
-    public void connectToServer(String host, int port, String psuedo){
+    public void connectToServer(String host, int port, String psuedo) {
         ihm.addMessage("Try to connect to " + host + ":" + port + "\n");
-        int i=0;
+        int i = 0;
         try {
-            Socket socket = new Socket(host,port);
+            Socket socket = new Socket(host, port);
             ihm.addMessage("Success!\n");
-            in=new DataInputStream(socket.getInputStream());
-            out=new DataOutputStream(socket.getOutputStream());
-            process=new Thread(this);
+            in = new DataInputStream(socket.getInputStream());
+            out = new DataOutputStream(socket.getOutputStream());
+            process = new Thread(this);
             process.start();
 
-        } catch (UnknownHostException e){
+        } catch (UnknownHostException e) {
             ihm.addMessage("Unknown host!\n");
             e.printStackTrace();
         } catch (IOException e) {
@@ -164,9 +165,9 @@ public class AppMinesweeper extends JFrame implements Runnable{
 
 
     //event wait loop of server
-    public void run(){
+    public void run() {
         //infinite loop
-        while(process!=null){
+        while (process != null) {
             //read command
             int cmd = 0;
             try {
@@ -175,8 +176,8 @@ public class AppMinesweeper extends JFrame implements Runnable{
                 e.printStackTrace();
             }
             //according to what i read, i show the mine/number/gameover
-            if(cmd==MSG){  //send a message by server
-                String msg= null;
+            if (cmd == MSG) {  //send a message by server
+                String msg = null;
                 try {
                     msg = in.readUTF();
                 } catch (IOException e) {
@@ -187,8 +188,6 @@ public class AppMinesweeper extends JFrame implements Runnable{
         }
 
     }
-
-
 
 
 //    private void saveResult(){

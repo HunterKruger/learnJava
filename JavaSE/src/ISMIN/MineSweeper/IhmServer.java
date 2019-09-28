@@ -10,24 +10,24 @@ public class IhmServer extends JPanel {
     private JTextArea messageArea = new JTextArea();
 
 
-    public IhmServer(Server server){
+    public IhmServer(Server server) {
         this.server = server;
         setBackground(Color.LIGHT_GRAY);
         setLayout(new BorderLayout());
 
         JLabel present = new JLabel("Minesweeper server");
-        add(present,BorderLayout.NORTH);
+        add(present, BorderLayout.NORTH);
 
         messageArea.setEditable(false);
-        add(messageArea,BorderLayout.CENTER);
+        add(messageArea, BorderLayout.CENTER);
 
         startButton = new JButton("Start game");
-        add(startButton,BorderLayout.SOUTH);
+        add(startButton, BorderLayout.SOUTH);
 
         //server.startServer();
     }
 
-    public void addMessage(String s){
+    public void addMessage(String s) {
         messageArea.append(s);
     }
 

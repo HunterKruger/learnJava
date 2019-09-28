@@ -5,128 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218fc621-6d7a-43f5-b519-fb8206ec85c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Affair/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Affair/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/BigData/BlogTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/BigData/BlogTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/BigData/ClogTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/BigData/ClogTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/CallableStatement/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/CallableStatement/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/DatabaseUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/DatabaseUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/DatabaseUtility2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/DatabaseUtility2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/ModelOfStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/ModelOfStudent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/LinkToSQL/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/MataData/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/MataData/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/MataData/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/MataData/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/PreparedStatement/TestAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/PreparedStatement/TestAdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/PreparedStatement/TestDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/PreparedStatement/TestDelete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/PreparedStatement/TestUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/PreparedStatement/TestUpdate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/ResultSet/TestTraverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/ResultSet/TestTraverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Statement/TestAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Statement/TestAdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Statement/TestDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Statement/TestDelete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Statement/TestUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/out/production/JDBC/Statement/TestUpdate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/DataStructure/FromJdk/HashMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Case.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Case.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/FromJdk/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/FromJdk/HashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/MineSweeper.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/bean/MineLabel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/bean/Own.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/dialog/About$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/dialog/About$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/dialog/About.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/dialog/ShowWin$HeroListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/dialog/ShowWin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/dialog/Win$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/dialog/Win.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/frame/SartFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/listener/MineMenuListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/listener/MouseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/listener/MouseMotionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/menu/MineMenu$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/menu/MineMenu$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/menu/MineMenu$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/menu/MineMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/panel/MineField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/panel/MineState$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/panel/MineState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/timer/Timers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/bin/com/sf/minesweeper/tools/Tools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/alarm1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/ask.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/ask0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/ask1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/ask2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/blood.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/d9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/error.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/face9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/flag.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/hole.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/icon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/mine.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/mine0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/mine1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/mine2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/mine3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/nine_flase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/start.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/image/start.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/bean/MineLabel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/bean/Own.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/dialog/About.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/dialog/ShowWin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/dialog/Win.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/frame/SartFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/listener/MineMenuListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/listener/MouseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/listener/MouseMotionListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/menu/MineMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/panel/MineField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/panel/MineState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/timer/Timers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MineSweeper/src/com/sf/minesweeper/tools/Tools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +212,8 @@
       <workItem from="1569324865611" duration="464000" />
       <workItem from="1569410148594" duration="1771000" />
       <workItem from="1569414005063" duration="2704000" />
-      <workItem from="1569416723998" duration="11428000" />
+      <workItem from="1569416723998" duration="11895000" />
+      <workItem from="1569704010259" duration="107000" />
     </task>
     <servers />
   </component>

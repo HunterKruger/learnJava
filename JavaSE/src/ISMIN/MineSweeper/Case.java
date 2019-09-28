@@ -21,42 +21,42 @@ public class Case extends JPanel implements MouseListener {
     private AppMinesweeper app;
     private boolean clicked = false;
 
-    public Case(int x, int y, AppMinesweeper app){
-        setPreferredSize(new Dimension(DIMENSION,DIMENSION));  //size of the case
+    public Case(int x, int y, AppMinesweeper app) {
+        setPreferredSize(new Dimension(DIMENSION, DIMENSION));  //size of the case
         addMouseListener(this);
-        this.x=x;
-        this.y=y;
-        this.app=app;
+        this.x = x;
+        this.y = y;
+        this.app = app;
     }
 
-    public void newgame(){
+    public void newgame() {
         clicked = false;
         repaint();
     }
 
-    public void paintComponent(Graphics gc){
+    public void paintComponent(Graphics gc) {
         super.paintComponent(gc);  //erase previous picture
         gc.setColor(Color.LIGHT_GRAY);
-        gc.fillRect(1,1, getWidth(), getHeight());
-        BufferedImage image=null;
-        if(!app.isLost()){
-            if(clicked){
-                if(app.getMineField().isMine(x,y)){
-                    try{
+        gc.fillRect(1, 1, getWidth(), getHeight());
+        BufferedImage image = null;
+        if (!app.isLost()) {
+            if (clicked) {
+                if (app.getMineField().isMine(x, y)) {
+                    try {
                         image = ImageIO.read(new File("img/bomb.png"));
-                        gc.drawImage(image,0,0,this.getWidth(),this.getHeight(),this);
+                        gc.drawImage(image, 0, 0, this.getWidth(), this.getHeight(), this);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
 
-                }else{  //not mine
+                } else {  //not mine
                     gc.setColor(Color.WHITE); //set field color
-                    if(app.getMineField().calculateMinesAround(x,y)==0){
-                        gc.fillRect(1,1,getWidth(),getHeight());
-                    }else {
-                        gc.fillRect(1,1,getWidth(),getHeight());
+                    if (app.getMineField().calculateMinesAround(x, y) == 0) {
+                        gc.fillRect(1, 1, getWidth(), getHeight());
+                    } else {
+                        gc.fillRect(1, 1, getWidth(), getHeight());
                         gc.setColor(Color.BLUE); //set color for number
-                        gc.drawString(String.valueOf(app.getMineField().calculateMinesAround(x,y)),getWidth()/2,getHeight()/2);
+                        gc.drawString(String.valueOf(app.getMineField().calculateMinesAround(x, y)), getWidth() / 2, getHeight() / 2);
                     }
                 }
             }
@@ -83,15 +83,15 @@ public class Case extends JPanel implements MouseListener {
     @Override
     public void mousePressed(MouseEvent e) {
 
-        if(!clicked && !app.getMineField().isMine(x,y) && !app.isLost() && app.isStarted()){
+        if (!clicked && !app.getMineField().isMine(x, y) && !app.isLost() && app.isStarted()) {
             app.increaseNumMineDiscovered();
         }
 
         clicked = true;
 
-        if(!app.isLost()){  //not lost
+        if (!app.isLost()) {  //not lost
 
-            if(!app.isStarted()){
+            if (!app.isStarted()) {
                 app.getIhm().getTime().startCounter();
                 app.setStarted(true);
                 app.setLost(false);
@@ -99,11 +99,11 @@ public class Case extends JPanel implements MouseListener {
 
             repaint();
 
-            if(app.getMineField().isMine(x,y)){
+            if (app.getMineField().isMine(x, y)) {
                 app.getIhm().getTime().stopCounter();
                 Icon binLadin = new ImageIcon("/Users/FY/Desktop/workspaceMac/learnJava/JavaSE/img/binLadin.jpeg");
                 playMusic();
-                JOptionPane.showMessageDialog(null,"Allah Akbar!","NOOB",1,binLadin);
+                JOptionPane.showMessageDialog(null, "Allah Akbar!", "NOOB", 1, binLadin);
                 app.setLost(true);
                 app.newgame();
             }
@@ -111,9 +111,9 @@ public class Case extends JPanel implements MouseListener {
         }
 
         //win
-        if(app.isWin()){
+        if (app.isWin()) {
             app.getIhm().getTime().stopCounter();
-            JOptionPane.showMessageDialog(null, "You win, slick!\n Time:"+(app.getIhm().getTime().getProcessTime()+1));
+            JOptionPane.showMessageDialog(null, "You win, slick!\n Time:" + (app.getIhm().getTime().getProcessTime() + 1));
             app.newgame();
         }
 

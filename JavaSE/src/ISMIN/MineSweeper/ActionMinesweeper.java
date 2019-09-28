@@ -26,31 +26,31 @@ public class ActionMinesweeper implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(type==QUIT){
+        if (type == QUIT) {
             app.quit();
         }
-        if(type==NEWGAME){
+        if (type == NEWGAME) {
             app.newgame();
         }
-        if(type==LEVELINFO){
+        if (type == LEVELINFO) {
             app.levelInformation();
         }
-        if(type==ABOUTAUTHOR){
+        if (type == ABOUTAUTHOR) {
             app.aboutAuthor();
         }
-        if(type==EASY){
+        if (type == EASY) {
             app.newgame("EASY");
         }
-        if(type==NORMAL){
+        if (type == NORMAL) {
             app.newgame("NORMAL");
         }
-        if(type==HARD){
+        if (type == HARD) {
             app.newgame("HARD");
         }
-        if(type==CONNECT){
+        if (type == CONNECT) {
             app.connectToServer(app.getIhm().getHostnameField().getText(),
                     Integer.parseInt(app.getIhm().getPortField().getText()),
-                    app.getIhm().getPsuedoField().getText());
+                    app.getIhm().getPseudoField().getText());
         }
 
     }

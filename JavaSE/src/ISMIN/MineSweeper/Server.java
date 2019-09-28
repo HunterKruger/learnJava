@@ -1,25 +1,26 @@
 package ISMIN.MineSweeper;
 
 import javax.swing.*;
-import java.net.* ; // Sockets
-import java.io.* ; // Streams
+import java.net.*; // Sockets
+import java.io.*; // Streams
+
 public class Server extends JFrame implements Runnable {
 
     private IhmServer ihmServer;
     private ServerSocket serverSocket;
 
-    public Server(){
-        ihmServer= new IhmServer(this) ;
-        setContentPane(ihmServer) ;
+    public Server() {
+        ihmServer = new IhmServer(this);
+        setContentPane(ihmServer);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        pack() ;
-        setVisible(true) ;
+        pack();
+        setVisible(true);
         startServer();
     }
 
-     void startServer(){
+    void startServer() {
         ihmServer.addMessage("Wait for clients...\n");
-        try{
+        try {
             //launch the management of socket
             serverSocket = new ServerSocket(AppMinesweeper.PORT);
             //launch a thread for waiting client
@@ -28,25 +29,25 @@ public class Server extends JFrame implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         }
-     }
+    }
 
-     public void run(){
-         try {
-             Socket socket = serverSocket.accept();  //new client
-             ihmServer.addMessage("New client\n");
-             new Thread(this).start();        //launch a wait for client
+    public void run() {
+        try {
+            Socket socket = serverSocket.accept();  //new client
+            ihmServer.addMessage("New client\n");
+            new Thread(this).start();        //launch a wait for client
 
-             //open in/out
-             //stock in 2 collection
-             //infinite loop of waiting clients' messages
-             //re-dispatch others if necessary
+            //open in/out
+            //stock in 2 collection
+            //infinite loop of waiting clients' messages
+            //re-dispatch others if necessary
 
-         } catch (IOException e) {
-             e.printStackTrace();
-         }
-     }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         new Server();
 
     }
