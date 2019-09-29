@@ -1,4 +1,4 @@
-package ISMIN.Basic;
+package ISMINBasic;
 
 /**
  * Created by FY on 03/09/19.

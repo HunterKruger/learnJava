@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218fc621-6d7a-43f5-b519-fb8206ec85c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/mineTime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmMinesweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.AppServer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -78,6 +82,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ISMIN.Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ISMIN.MineSweeper.AppServer" />
+      <module name="JavaSE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ISMIN.MineSweeper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,20 +124,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="IOStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ISMIN.MineSweeper.Server" />
-      <module name="JavaSE" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ISMIN.MineSweeper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,7 +178,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.AppServer" />
         <item itemvalue="Application.AppMinesweeper" />
         <item itemvalue="Application.InputStreamTest" />
         <item itemvalue="Application.Hello" />
@@ -213,7 +217,7 @@
       <workItem from="1569410148594" duration="1771000" />
       <workItem from="1569414005063" duration="2704000" />
       <workItem from="1569416723998" duration="11895000" />
-      <workItem from="1569704010259" duration="107000" />
+      <workItem from="1569704010259" duration="8323000" />
     </task>
     <servers />
   </component>

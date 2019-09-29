@@ -1,4 +1,4 @@
-package ISMIN.Basic;
+package ISMINBasic;
 
 public class TableTest {
     public static void main(String[] args) {
