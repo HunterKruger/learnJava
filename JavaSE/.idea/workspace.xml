@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218fc621-6d7a-43f5-b519-fb8206ec85c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/mineTime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/ActionMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/AppMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/IhmMinesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/MineField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE/ISMIN/MineSweeper/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/ActionMinesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppMinesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/IhmServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/MineField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ISMIN/MineSweeper/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ISMIN/MineSweeper/AppServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/Procedure and function.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/Trigger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/t_book and t_booktype.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/t_book.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/t_grade.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/t_pricelevel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/t_student.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/view.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySQL/自带函数.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,6 +215,8 @@
       <workItem from="1569414005063" duration="2704000" />
       <workItem from="1569416723998" duration="11895000" />
       <workItem from="1569704010259" duration="8323000" />
+      <workItem from="1569765091474" duration="246000" />
+      <workItem from="1571043358257" duration="341000" />
     </task>
     <servers />
   </component>
